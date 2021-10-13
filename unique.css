@@ -1,0 +1,164 @@
+/* This link imports the font, which is Bubblegum Sans.*/
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+/*This portion of CSS defines the navigation bar and how it looks.*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: lightblue;
+}
+
+li, a, button{
+	font-family: 'Bubblegum Sans', cursive;
+	font-size: 16px;
+	color: mediumblue;
+}
+
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px 10%;
+}
+
+.logo{
+	cursor: pointer;
+	border: 1px solid navy;
+}
+
+.NavBar-Links{
+	list-style: none;
+}
+
+.NavBar-Links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.NavBar-Links li a{
+	transition: all 0.3s ease 0s;
+}
+
+/*The navigation bar uses hover effects. This tells the computer to make the text darker when a mouse hovers over it.*/
+.NavBar-Links li a:hover{
+	color: navy;
+}
+
+button{
+	padding: 9px 25px;
+	background-color: rgba(0, 136, 169, 1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover{
+	background-color: rgba(0, 136, 169, 0.8);
+}
+
+/* This portion of code describes the information and the sources. */
+#title1{
+	font-size: 48pt;
+	color: mediumblue;
+	text-align: center;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+.title{
+	font-size: 24pt;
+	color: mediumblue;
+	text-align: center;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+/* This portion describes the validators found at the bottom of the page. */
+.validator{
+	display: flex;
+	justify-content: left;
+	background-color: skyblue;
+}
+
+.MainParagraph{
+	margin: 3%;
+}
+
+.SecondParagraph{
+	margin: 3%;
+}
+
+.SourceTitle{
+	font-size: 18pt;
+	background-color: skyblue;
+	font-family: 'Bubblegum Sans', cursive;
+	color: mediumblue;
+}
+
+.footer{
+	border: 2px solid cadetblue;
+	background-color: skyblue;
+}
+
+.sources{
+	font-size: 10pt;
+	color: black;
+	background-color: skyblue;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+/* This website uses flexbox to format text. This portion describes the flexbox items. */
+.info{
+	font-size: 18pt;
+	color: royalblue;
+	background-color: lightblue;
+	font-family: 'Bubblegum Sans', cursive;
+	margin-bottom: 10px;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.flexbox-item{
+	width: 750px;
+	margin: 20px;
+	background-color: lightblue;
+}
+
+.flexbox-item-1{
+	min-width: 100px;
+}
+
+.flexbox-item-2{
+	min-width: 100px;
+	text-align: center;
+}
+
+.flex-container-2{
+	display: flex;
+	flex-direction: row;
+	background-color: skyblue;
+}
+
+.flexbox-2item{
+	background-color: skyblue;
+}
+
+#image1{
+	border: 2pt solid navy;
+}
+
+#image2{
+	border: 2pt solid navy;
+}
+
+.list{
+	font-size: 18pt;
+	color: royalblue;
+	background-color: lightblue;
+	font-family: 'Bubblegum Sans', cursive;
+	margin-bottom: 10px;
+}
